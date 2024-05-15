@@ -1,4 +1,5 @@
-import * as React from "react"
+import * as React from "react";
+import Header from "../komponen/Header";
 
 const pageStyles = {
   color: "#232129",
@@ -126,6 +127,7 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+      <Header/>
       <h1 style={headingStyles}>
         Congratulations
         <br />
