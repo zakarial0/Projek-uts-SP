@@ -15,7 +15,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@mdx-js/react": "^3.0.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@mdx-js/react": "^2.3.0",
     "autoprefixer": "^10.4.19",
     "gatsby": "^5.13.3",
     "gatsby-plugin-mdx": "^5.13.1",

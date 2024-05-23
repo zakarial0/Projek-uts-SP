@@ -8,7 +8,7 @@ const Header = () => {
         <header className="bg-[#000000] flex absolute w-full">
             <img src={ logo } alt="logo" className="flex-none mx-44"/>
             <nav className=" w-full">
-            <ul className="flex my-6 space-x-8">
+            <ul className="flex my-6 space-x-9">
                 <li>
                     <Link to="/" className="text-xl font-bold text-color">
                     Home</Link>
