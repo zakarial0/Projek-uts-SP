@@ -4,9 +4,15 @@ import Layout from "../komponen/layout";
 const IndexPage = () => {
     return (
         <Layout>
-            <p>test</p>       
+    
         </Layout>
     )
 }
 
 export default IndexPage;
+
+export const Head = () => {
+ return ( 
+ <title>Sumber Pasir | Home</title>
+    )
+}

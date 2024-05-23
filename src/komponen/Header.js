@@ -17,13 +17,11 @@ const Header = () => {
                     <Link to="/about" className="text-xl font-bold text-color">
                     Tentang Kami</Link>
                 </li>
-                <li>
-                    <label>
-                        <select value="value">
-                            <option value="pasir">Pasir</option>
-                            <option value="batu">Batu</option>
-                        </select>
-                    </label>
+                <li className="text-xl font-bold text-color"><Link to="#">Produk</Link>
+                    <ul className="">
+                    <li className="produk"><Link to="#">Pasir</Link></li>
+                    <li className="produk"><Link to="#">Batu</Link></li>
+                    </ul>
                 </li>
                 <li>
                     <Link to="/contact" className="text-xl font-bold text-color">

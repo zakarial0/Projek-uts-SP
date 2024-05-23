@@ -29,3 +29,12 @@
     background-color: #ffeb3b;
     color: black;
 }
+
+.produk{
+    display: none;
+}
+.produk:hover {
+    background-color: #ffeb3b;
+    color: #fff;
+    display: block;
+}
