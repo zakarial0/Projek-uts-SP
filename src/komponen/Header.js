@@ -1,21 +1,41 @@
 import React from "react";
+import logo from "../images/small-logo-sp.png";
 import { Link } from "gatsby";
 
 const Header = () => {
     
     return (
-        <header className="flex py-4 px-6 bg-slate-950">
-            <h1 className=" text-red-500 font-bold text-4xl w-4/5 ml-12">sumberpasir</h1>
-            <nav className=" w-2/5">
-            <ul className="flex my-1.5 space-x-8 w-1/5 ml-28">
+        <header className="bg-[#000000] flex absolute w-full">
+            <img src={ logo } alt="logo" className="flex-none mx-44"/>
+            <nav className=" w-full">
+            <ul className="flex my-6 space-x-8">
                 <li>
-                    <Link to="/" className="text-xl text-neutral-50 ms-10">Home</Link>
+                    <Link to="/" className="text-xl font-bold text-color">
+                    Home</Link>
                 </li>
                 <li>
-                    <Link to="/about" className="text-xl text-neutral-50 ms-10">About</Link>
+                    <Link to="/about" className="text-xl font-bold text-color">
+                    Tentang Kami</Link>
                 </li>
                 <li>
-                    <Link to="/contact" className="text-xl text-neutral-50 ms-10">Contact</Link>
+                    <label>
+                        <select value="value">
+                            <option value="pasir">Pasir</option>
+                            <option value="batu">Batu</option>
+                        </select>
+                    </label>
+                </li>
+                <li>
+                    <Link to="/contact" className="text-xl font-bold text-color">
+                    Kontak</Link>
+                </li>
+                <li>
+                    <Link to="/contact" className="text-xl font-bold text-color">
+                    Blog</Link>
+                </li>
+                <li>
+                    <Link to="/contact" className="text-xl font-bold galeri rounded-md px-3 pb-1">
+                    Galeri</Link>
                 </li>
             </ul>
             </nav>

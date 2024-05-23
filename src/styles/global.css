@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-yellows{
+    color: #ffeb3b;
+}
+
+.text-must{
+    color: #fff9c4;
+}
+
+.text-gray{
+    color: #c0c0c0;
+}
+
+.text-color{
+    color: white;
+}
+.text-color:hover{
+    color: #ffeb3b;
+}
+
+.galeri{
+    background-color: #fff9c4;
+    color: black;
+}
+.galeri:hover{
+    background-color: #ffeb3b;
+    color: black;
+}

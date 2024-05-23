@@ -5,7 +5,7 @@ import Footer from "./Footer";
 const Layout = ({ children }) => {
     return (
         <div className=" w-1">
-            <Header className="w-2/3"/>
+            <Header/>
             <main className="flex-grow">
                 {children}
             </main>

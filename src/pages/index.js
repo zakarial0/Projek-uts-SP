@@ -1,15 +1,11 @@
 import React from "react";
-// import Layout from "../komponen/layout";
-import Popup from "../komponen/popup";
+import Layout from "../komponen/layout";
 
 const IndexPage = () => {
     return (
-        // <Layout>
-        //     <p>test</p>
-            
-        // </Layout>
-        <Popup>
-        </Popup>
+        <Layout>
+            <p>test</p>       
+        </Layout>
     )
 }
 
