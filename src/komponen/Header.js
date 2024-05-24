@@ -5,8 +5,8 @@ import { Link } from "gatsby";
 const Header = () => {
     
     return (
-        <header className="bg-[#000000] flex absolute w-full">
-            <img src={ logo } alt="logo" className="flex-none mx-44"/>
+        <header className="bg-[#000000] flex solid top-0 w-full">
+            <img src={ logo } alt="logo" className="flex-none mx-44" />
             <nav className=" w-full">
             <ul className="flex my-6 space-x-9">
                 <li>
@@ -17,11 +17,14 @@ const Header = () => {
                     <Link to="/about" className="text-xl font-bold text-color">
                     Tentang Kami</Link>
                 </li>
-                <li className="text-xl font-bold text-color"><Link to="#">Produk</Link>
-                    <ul className="">
-                    <li className="produk"><Link to="#">Pasir</Link></li>
-                    <li className="produk"><Link to="#">Batu</Link></li>
-                    </ul>
+                <li className="text-xl font-bold text-color" id="dropdown">
+                    <Link to="#">Produk</Link>
+                    <div className="z-10 absolute invisible" id="submenu">
+                        <ul className="">
+                            <li className="text-black w-[4.5rem] bg-[#ffeb3b] hover:bg-[#fff9c3] rounded-t-md px-3"><Link to="#">Pasir</Link></li>
+                            <li className="text-black w-[4.5rem] bg-[#ffeb3b] hover:bg-[#fff9c3] rounded-b-md px-3"><Link to="#">Batu</Link></li>
+                        </ul>
+                    </div>
                 </li>
                 <li>
                     <Link to="/contact" className="text-xl font-bold text-color">

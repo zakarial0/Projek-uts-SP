@@ -22,19 +22,22 @@
 }
 
 .galeri{
-    background-color: #fff9c4;
+    background-color: #ffeb3b;
     color: black;
 }
 .galeri:hover{
-    background-color: #ffeb3b;
+    background-color: #fff9c4;
     color: black;
 }
 
-.produk{
-    display: none;
+li:hover #submenu{
+    visibility: visible;
 }
-.produk:hover {
-    background-color: #ffeb3b;
-    color: #fff;
-    display: block;
+
+.banner{
+    background-image: url("../images/bg.png");
+    height: 45.875rem;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: contain;
 }

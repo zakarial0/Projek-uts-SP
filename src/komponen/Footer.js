@@ -8,7 +8,7 @@ import { faMapLocationDot, faEnvelope } from "@fortawesome/free-solid-svg-icons"
 const Footer = () => {
     
     return(
-        <footer className="bg-black py-3 absolute bottom-0 w-full h-80 ">
+        <footer className="bg-black py-3 solid bottom-0 w-full h-80 ">
             <div className="grid grid-cols-2">
             <div className="mx-8">
                 <img src={medLogo} alt="logo" className="px-12 -mt-8"/>
@@ -40,7 +40,7 @@ const Footer = () => {
             </div>
             </div>
             <div className="border-b-2 border-[#ffeb3b] w-full my-4"/>
-            <p className="text-slate-50 font-bold absolute bottom-0 left-1/3 my-3">Copyright © 2024 Sumber Pasir | Powered by Sumber Pasir</p>
+            <p className="text-white font-bold solid bottom-0 text-center my-3">Copyright © 2024 Sumber Pasir | Powered by Sumber Pasir</p>
         </footer>
     )
 }
