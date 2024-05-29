@@ -30,11 +30,19 @@ const Footer = () => {
                 <ul className=" space-y-10 my-6">
                     <li className="flex me-20">
                     <FontAwesomeIcon icon={faMapLocationDot} size="2xl" style={{color: "#FFD43B",}} />
-                    <p className="text-yellows text-xl ms-6">Desa Jatake Kec. Pagedangan Kab. Tangerang, Prov. Banten</p>
+                    <p className="text-yellows text-xl ms-6">
+                        <Link to="/">
+                            Desa Jatake Kec. Pagedangan Kab. Tangerang, Prov. Banten
+                        </Link>
+                    </p>
                     </li>
                     <li className="flex me-20">
                     <FontAwesomeIcon icon={faEnvelope} size="2xl" style={{color: "#FFD43B",}} />
-                    <p className="text-yellows text-xl ms-6">sumberpasir618@gmail.com</p>
+                    <p className="text-yellows text-xl ms-6">
+                        <Link to="/">
+                            sumberpasir618@gmail.com
+                        </Link>
+                    </p>
                     </li>
                 </ul>
             </div>
