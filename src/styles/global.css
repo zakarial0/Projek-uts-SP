@@ -41,3 +41,14 @@ li:hover #submenu{
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.itemBoxBG {
+    background-image: url("../images/pasir-rangkas.png");
+    background-size: cover;
+    opacity: 0.6;
+}
+
+@keyframes scrolling{
+    from {transform: translateX(0);}
+    to {transform: translateX(-100%);}
+}

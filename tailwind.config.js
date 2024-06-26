@@ -3,9 +3,16 @@ module.exports = {
   content: [
     `./src/pages/**/*.{js,jsx,ts,tsx}`,
     `./src/komponen/**/*.{js,jsx,ts,tsx}`,
+    "./node_modules/flowbite-react/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        "loop-scroll": "scrolling 30s linear infinite ",
+      },
+    },
   },
-  plugins: [],
+  plugins: [
+    require("flowbite/plugin")
+  ],
 }
